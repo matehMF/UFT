@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>PDFUtil.Open "C:\Users\_ft_auto\Desktop\TAW 2021\New PDF\PDFDemo\Resources\TestPDF.pdf", ""</Name>
+    <Description />
+    <StartTime>2021-08-26 22:06:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>304b05ae02ec48c294b52aa90ae9762a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d8a94717-d43e-4264-bdf3-710958e57616.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>TestPDF.pdf.Maximize</Name>
+    <Description />
+    <StartTime>2021-08-26 22:06:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+        </Path>
+        <Operation>Maximize</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[TestPDF.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\82f55628-ce15-45c3-9e63-5c8e9ea75867.jpeg" highlight="0,0,1248,911" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>edit2.Set</Name>
+    <Description>"testing123+"</Description>
+    <StartTime>2021-08-26 22:06:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFEdit</Type>
+            <Name><![CDATA[edit2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["testing123+"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Family Name Text Box]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a38909dde99247718ef483a58f479538</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e7d7202f-dd91-4911-9a48-92cf01bc42c5.jpeg" highlight="302,540,229,22" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>comboBox8.Select</Name>
+    <Description>"Germany"</Description>
+    <StartTime>2021-08-26 22:06:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFComboBox</Type>
+            <Name><![CDATA[comboBox8]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Germany"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Country Combo Box]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5819636d022440659c1db73b74b1c860</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4ea61d1c-001d-4f46-8921-a3a1d1354f41.jpeg" highlight="302,701,229,22" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>checkbox13.Set</Name>
+    <Description>"OFF"</Description>
+    <StartTime>2021-08-26 22:06:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFCheckbox</Type>
+            <Name><![CDATA[checkbox13]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["OFF"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Language 2 Check Box]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[exportvalue]]></Name>
+            <Value><![CDATA[Yes]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>774c55bf0a4a445097f45fe8dca03570</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b1e0e966-94bf-4179-a71b-055b0499c0e5.jpeg" highlight="285,535,18,17" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>checkbox13.Set</Name>
+    <Description>"ON"</Description>
+    <StartTime>2021-08-26 22:06:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFCheckbox</Type>
+            <Name><![CDATA[checkbox13]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ON"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Language 2 Check Box]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[exportvalue]]></Name>
+            <Value><![CDATA[Yes]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>774c55bf0a4a445097f45fe8dca03570</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1e286bbe-10dc-4793-b80c-805a2c7957f1.jpeg" highlight="285,535,18,17" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>edit19.SetSecure</Name>
+    <Description>"60c9ad55af0927ab9c20e66348930de6a27853bea94f"</Description>
+    <StartTime>2021-08-26 22:06:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFEdit</Type>
+            <Name><![CDATA[edit19]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["60c9ad55af0927ab9c20e66348930de6a27853bea94f"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[EncryptedEdit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a38909dde99247718ef483a58f479538</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8570cb93-8f08-4709-9e3f-a7f5337f3291.jpeg" highlight="646,539,229,33" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>page1</Name>
+    <Description>PDFPage</Description>
+    <StartTime>2021-08-26 22:06:11</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[PDFPage]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[pagenumber]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>145d219383ef446b844e74e599e4fbd0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>TestPDF.pdf.Save</Name>
+    <Description>"C:\Users\_ft_auto\Desktop\TAW 2021\New PDF\PDFDemo\Resources\TestPDF_saved.pdf", ""</Description>
+    <StartTime>2021-08-26 22:06:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+        </Path>
+        <Operation>Save</Operation>
+        <OperationData><![CDATA["C:\Users\_ft_auto\Desktop\TAW 2021\New PDF\PDFDemo\Resources\TestPDF_saved.pdf", ""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[TestPDF.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7c6d26db-8c62-4141-93bc-0241d537ae93.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>TestPDF.pdf</Name>
+    <Description>PDFApplication</Description>
+    <StartTime>2021-08-26 22:06:09</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF.pdf]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[PDFApplication]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[TestPDF.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>TestPDF_saved.pdf.Close</Name>
+    <Description />
+    <StartTime>2021-08-26 22:06:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF_saved.pdf]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[TestPDF_saved.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4fa5b610-056e-422d-a01c-42455eac9d6e.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>PDFUtil.Open "C:\Users\_ft_auto\Desktop\TAW 2021\New PDF\PDFDemo\Resources\Digital Signatures - XI Pro.pdf", ""</Name>
+    <Description />
+    <StartTime>2021-08-26 22:06:33</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>304b05ae02ec48c294b52aa90ae9762a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e861befa-d4e3-4d5a-b5d9-38a6ab0f8999.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>TestPDF_saved.pdf</Name>
+    <Description>PDFApplication</Description>
+    <StartTime>2021-08-26 22:06:15</StartTime>
+    <Duration>21</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[TestPDF_saved.pdf]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[PDFApplication]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[TestPDF_saved.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Digital Signatures - XI Pro.pd.Maximize</Name>
+    <Description />
+    <StartTime>2021-08-26 22:06:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[Digital Signatures - XI Pro.pd]]></Name>
+          </Object>
+        </Path>
+        <Operation>Maximize</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Digital Signatures - XI Pro.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\298e8b94-9c29-49e7-ad39-c76a5e1cbe49.jpeg" highlight="0,0,1248,911" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>signature2.SetSecure</Name>
+    <Description>"dxdemo"</Description>
+    <StartTime>2021-08-26 22:06:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[Digital Signatures - XI Pro.pd]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFSignatureField</Type>
+            <Name><![CDATA[signature2]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["dxdemo"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Signature2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2dfd7b0a771346ef983f786802dbac21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b04cd2ed-9222-4441-b186-54fd9bfe63d3.jpeg" highlight="71,760,365,76" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>page1</Name>
+    <Description>PDFPage</Description>
+    <StartTime>2021-08-26 22:06:38</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[Digital Signatures - XI Pro.pd]]></Name>
+          </Object>
+          <Object>
+            <Type>PDFPage</Type>
+            <Name><![CDATA[page1]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[PDFPage]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[pagenumber]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>145d219383ef446b844e74e599e4fbd0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Digital Signatures - XI Pro.pd.Save</Name>
+    <Description>""</Description>
+    <StartTime>2021-08-26 22:06:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[Digital Signatures - XI Pro.pd]]></Name>
+          </Object>
+        </Path>
+        <Operation>Save</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Digital Signatures - XI Pro.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1177f3eb-f0f2-4a8a-a6d2-c3dfb7181fe3.jpeg" highlight="0,0,1248,911" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Digital Signatures - XI Pro.pd.Close</Name>
+    <Description />
+    <StartTime>2021-08-26 22:06:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[Digital Signatures - XI Pro.pd]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Digital Signatures - XI Pro.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a4c71ea4-64b3-42ec-a12e-6d931e95c93b.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Digital Signatures - XI Pro.pd</Name>
+    <Description>PDFApplication</Description>
+    <StartTime>2021-08-26 22:06:36</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>PDFApplication</Type>
+            <Name><![CDATA[Digital Signatures - XI Pro.pd]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[PDFApplication]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Digital Signatures - XI Pro.pdf]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>cb47882511124303908bb80280a74a70</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-08-26 22:05:47</StartTime>
+    <Duration>52</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9b6fc7e9baf44c1ab3da73ed1b247765</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-08-26 22:05:46</StartTime>
+    <Duration>53</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5fe3d95169314b8fa0475bbe88f8aa91</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>PDFDemo</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-08-26 22:05:44</StartTime>
+    <Duration>55</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e2360662ce9e40778197216ad7959cb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (Israel)</Locale>
+      <User>swinfra\_ft_auto</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>swinfra.net\MYD-HVM03270</HostName>
+      <OSInfo>Windows 10 1809 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Report1</ResultName>
+    <RunStartTime>2021-08-26 22:05:44</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
